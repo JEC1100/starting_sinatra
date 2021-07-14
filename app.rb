@@ -18,7 +18,7 @@ get '/' do
     erb(:index)
   end
 
-  get '/named_cat' do
+  get '/named-cat' do
     p params
     @name = params[:name]
     erb(:index)
